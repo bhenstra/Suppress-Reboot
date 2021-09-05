@@ -18,7 +18,7 @@ To disable the Windows Update Orchestrator's reboot task I did execute SuppressR
 This creates two scheduled tasks. One task to keep the reboot task disabled and one to make sure the task is executed during boot. 
 
 Please note: 
-PsExec is required and can be acquired at the Sysinternals website: https://download.sysinternals.com/files/PSTools.zip
-Details are here: https://docs.microsoft.com/en-us/sysinternals/downloads/pstools
+- PsExec is required and can be acquired at the Sysinternals website: https://download.sysinternals.com/files/PSTools.zip
+- Details are here: https://docs.microsoft.com/en-us/sysinternals/downloads/pstools
 
 I am hoping this is helpful. Usage is at the user's own personal risk.
