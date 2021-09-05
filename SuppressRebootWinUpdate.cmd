@@ -25,8 +25,8 @@
 
 	::: SchTasks
 	    SET SchTasksFldr=Suppression
-        SET SchTasksName=SuppressRebootWinUpdate
-		SET SchTaskMinutes=10
+            SET SchTasksName=SuppressRebootWinUpdate
+            SET SchTaskMinutes=10
 	
     ::: Script checks and init
 	    IF NOT EXIST %ScriptBin%\. echo The location of the binaries does not exist. && goto :END
